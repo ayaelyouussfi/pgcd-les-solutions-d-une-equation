@@ -56,19 +56,19 @@ int main() {
         return 0;
     }
 
-    // 4. Calcul d'une solution particulière
+    // 4. Calcul d'une solution particuliere
     int k = c / d;
     int xp = x0 * k;
     int yp = y0 * k;
 
     // 5. Affichage des résultats
-    printf("\nIl existe des solutions entieres !\n");
+    printf("\nil existe des solutions entieres !\n");
     printf("Solution particuliere : (x, y) = (%d, %d)\n", xp, yp);
 
     int alpha = b / d;
     int beta = -a / d;
 
-    printf("Forme générale : (x, y) = (%d + %d*k, %d + %d*k), k appartient Z\n",
+    printf("Forme generale : (x, y) = (%d + %d*k, %d + %d*k), k appartient Z\n",
            xp, alpha, yp, beta);
 
     return 0;
