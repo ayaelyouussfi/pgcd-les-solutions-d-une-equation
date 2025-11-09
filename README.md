@@ -4,7 +4,9 @@ programme c pour calculer le pgcd et solution d une equation
 #include <stdio.h>
 
 // Fonction pour calculer le PGCD de deux nombres (algorithme d'Euclide)
+
 int pgcd(int a, int b) {
+
     while (b != 0) {
         int reste = a % b;
         a = b;
