@@ -1,5 +1,6 @@
 # pgcd-les-solutions-d-une-equation
 programme c pour calculer le pgcd et solution d une equation
+
 #include <stdio.h>
 
 // Fonction pour calculer le PGCD de deux nombres (algorithme d'Euclide)
