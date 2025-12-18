@@ -1,11 +1,11 @@
-# pgcd-les-solutions-d-une-equation
-programme c pour calculer le pgcd et solution d une equation
+    # pgcd-les-solutions-d-une-equation
+      programme c pour calculer le pgcd et solution d une equation
 
-#include <stdio.h>
+     #include <stdio.h>
 
-// Fonction pour calculer le PGCD de deux nombres (algorithme d'Euclide)
+    // Fonction pour calculer le PGCD de deux nombres (algorithme d'Euclide)
 
-int pgcd(int a, int b) {
+     int pgcd(int a, int b) {
 
     while (b != 0) {
         int reste = a % b;
@@ -13,11 +13,11 @@ int pgcd(int a, int b) {
         b = reste;
     }
     return a;
-}
+    }
 
-// Algorithme d’Euclide étendu
+     // Algorithme d’Euclide étendu
 
-int euclide_etendu(int a, int b, int *x, int *y) {
+      int euclide_etendu(int a, int b, int *x, int *y) {
     if (b == 0) {
         *x = 1;
         *y = 0;
@@ -31,9 +31,9 @@ int euclide_etendu(int a, int b, int *x, int *y) {
     *y = x1 - (a / b) * y1;
 
     return d;
-}
+    }
 
-int main() {
+     int main() {
 
     int a, b, c;
     printf("=== Programme pour resoudre a*x + b*y = c ===\n\n");
